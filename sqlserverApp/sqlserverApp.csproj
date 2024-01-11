@@ -22,6 +22,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="ConsoleHelperLibrary" Version="1.0.0" />
+		<PackageReference Include="kp.Dapper.Handlers" Version="1.0.0" />
 	</ItemGroup>
 
 
@@ -31,9 +32,9 @@
 		<PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.2" />
 	</ItemGroup>
 
-	<ItemGroup>
+	<!--<ItemGroup>
 	  <ProjectReference Include="..\Dapper.Handlers\kp.Dapper.Handlers.csproj" />
-	</ItemGroup>
+	</ItemGroup>-->
 
 	<ItemGroup>
 	  <None Update="appsettings.json">

@@ -20,4 +20,7 @@ internal class Operations
 
     public List<Test1> GetAll()
         => _cn.Query<Test1>("SELECT Id, DateOnly, TimeOnly FROM dbo.Test1;").ToList();
+
+    public async Task<List<Test1>> GetAllAsync()
+        => (await _cn.QueryAsync<Test1>("SELECT id, GenderType FROM Genders")).AsList();
 }
