@@ -15,6 +15,8 @@
 		<RepositoryType>git</RepositoryType>
 		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
 		<PackageReadmeFile>readme.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/karenpayneoregon/dapper-libraries</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/karenpayneoregon/dapper-libraries/tree/master/Dapper.Handlers</PackageProjectUrl>
 	</PropertyGroup>
 
 	<ItemGroup>

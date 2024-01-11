@@ -1,6 +1,7 @@
 ﻿using System.Data;
+using Dapper;
 
-namespace Dapper.Handlers;
+namespace kp.Dapper.Handlers;
 
 public class SqlTimeOnlyTypeHandler : SqlMapper.TypeHandler<TimeOnly>
 {

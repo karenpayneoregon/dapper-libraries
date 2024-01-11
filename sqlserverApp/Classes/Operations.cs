@@ -1,7 +1,7 @@
 ﻿using Dapper;
 using Microsoft.Data.SqlClient;
 using System.Data;
-using Dapper.Handlers;
+using kp.Dapper.Handlers;
 using sqlserverApp.Models;
 
 namespace sqlserverApp.Classes;

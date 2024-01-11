@@ -32,7 +32,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\Dapper.Handlers\Dapper.Handlers.csproj" />
+	  <ProjectReference Include="..\Dapper.Handlers\kp.Dapper.Handlers.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>

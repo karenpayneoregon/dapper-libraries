@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper.Handlers", "Dapper.Handlers\Dapper.Handlers.csproj", "{889E8D89-1370-485E-81E1-509E8DF30C5F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kp.Dapper.Handlers", "Dapper.Handlers\kp.Dapper.Handlers.csproj", "{889E8D89-1370-485E-81E1-509E8DF30C5F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sqlserverApp", "sqlserverApp\sqlserverApp.csproj", "{4C353420-4A9C-441D-B550-AD7E1E245F69}"
 EndProject
