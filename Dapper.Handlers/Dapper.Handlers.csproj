@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Company>Karen Payne</Company>
+		<PackageTags>dapper</PackageTags>
+		<PackageReleaseNotes>Initial release</PackageReleaseNotes>
+		<Title>DateOnly and TimeOnly handlers for Dapper</Title>
+		<Description>Provides the ability to work with DateOnly and TimeOnly for Dapper</Description>
+		<Copyright>Karen Payne</Copyright>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<PackageIcon>dt.png</PackageIcon>
+		<RepositoryType>git</RepositoryType>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<PackageReadmeFile>readme.md</PackageReadmeFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Content Include="readme.md" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="..\assets\dt.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Dapper" Version="2.1.24" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Update="LICENSE.txt">
+	    <PackagePath>\</PackagePath>
+	    <Pack>True</Pack>
+	  </None>
+	  <None Update="licenses\LICENSE.txt">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	  <None Update="readme.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+</Project>
